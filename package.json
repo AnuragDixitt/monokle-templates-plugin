@@ -3,13 +3,13 @@
   "description": "Custom templates plugin",
   "version": "1.0.0",
   "author": "Anurag Dixit",
-  "repository": "https://github.com/AnuragDixitt/monokle-templates-plugin.git",
+  "repository": "https://github.com/AnuragDixitt/monokle-templates-plugin",
   "monoklePlugin": {
-    "modules": [
-      {
+    "id": "com.github.anurag-dixit.plugin.templates",
+    "helpUrl": "https://github.com/AnuragDixitt/monokle-templates-plugin",
+    "modules": [{
         "type": "template",
         "path": "basic-pod-template"
-      }
-    ]
+      }]
   }
 }
